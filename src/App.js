@@ -8,16 +8,12 @@ function App() {
       <header className="App-header">
         <h1>What About What Now</h1>
       </header>  
-    </div> 
-    <>
-      <div>
-        <Container>
+      <Container>
         <Row>
           <Col>Here</Col>
         </Row>
       </Container>
-      </div>
-    </>
+    </div> 
   );
 }
 
