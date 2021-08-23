@@ -1,5 +1,14 @@
+:root {
+  --bgd: #bdbdbd;
+  
+}
+
 * {
   font-family: 'Crimson Text', serif;
+}
+
+body {
+  background-color: var(--bdg);
 }
 
 .App {
@@ -18,7 +27,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
