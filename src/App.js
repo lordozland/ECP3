@@ -1,17 +1,22 @@
 import './App.css';
 import 'materialize-css';
-import { Container, Row, Col } from 'react-materialize';
-import Navbar from './components/layout/Navbar'
+import Navbar from './components/layout/Navbar';
+import Tracks from './components/layout/Tracks';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Container>
-        <Row>
-          <Col class="center"><h1>Here</h1></Col>
-        </Row>
-      </Container>
+      <Tracks />
+        <div class="container">
+            <div class="row">
+
+            <h3 class="center">Rebuilding in React</h3>
+
+            <p>Recently broke a guitar.  Album is currently complete as it will remain until I get another 7 string.  Writing new material after I finish my coding bootcamp in three/four weeks.  Thank you for your patience.</p>
+
+            </div>
+        </div>
     </div>
   );
 }
