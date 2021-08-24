@@ -7,9 +7,7 @@ function App() {
     <div>
       <Container>
         <Row>
-          <Col className="s12 m12 l12 center">
-            <h1>Here</h1>
-          </Col>
+          <Col className="center"><h1>Here</h1></Col>
         </Row>
       </Container>
     </div>

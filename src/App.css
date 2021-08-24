@@ -1,3 +1,10 @@
 * {
   font-family: 'Crimson Text', serif;
 }
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
