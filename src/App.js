@@ -1,9 +1,17 @@
 import './App.css';
+import 'materialize-css';
+import { Container, Row, Col } from 'react-materialize';
 
 function App() {
   return (
     <div>
-      <h1 className="center">Here</h1>
+      <Container>
+        <Row>
+          <Col className="s12 m12 l12 center">
+            <h1>Here</h1>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
