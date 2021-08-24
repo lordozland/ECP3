@@ -2,7 +2,8 @@
 
 // https://www.youtube.com/watch?v=YK-jXrsK3JU
 
-import React, { Component } from React
+// import React from 'react'
+import { Component } from 'react';
 import './App.css';
 import 'materialize-css';
 
