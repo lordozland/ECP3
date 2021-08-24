@@ -7,7 +7,7 @@ function Tracks() {
   return (
     <div>
         <div className="Tracks">
-        <ReactPlayer width="100%" height="200px" onReady='playing'
+        <ReactPlayer width="100%" height="200px"
         url="https://soundcloud.com/user-234357210/kringles-demo-18jul21_bus-st"
       />
         </div>
