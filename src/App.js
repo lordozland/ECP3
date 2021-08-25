@@ -7,6 +7,9 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-ro
 import MainPage from './pages/MainPage';
 import Contact from './pages/Contact';
 import Life from './pages/Life';
+import Sound from './pages/Sound';
+import Design from './pages/Design';
+import Company from './pages/Company';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <Route path="/" exact component={MainPage} />
       <Route path="/Contact" component={Contact} />
       <Route path="/Life" component={Life} />
+      <Route path="/Sound" component={Sound} />
+      <Route path="/Design" component={Design} />
+      <Route path="/Company" component={Company} />
     </Switch>
     </div>
     </Router>
