@@ -5,16 +5,18 @@ import Tracks from './components/layout/Tracks';
 
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 import MainPage from './pages/MainPage';
+import Contact from './pages/Contact';
 
 function App() {
   return (
+    <Router>
     <div>
-      <Navbar />
-      <Tracks />
-      <Router>
-        <Route path="/" component={MainPage} />
-      </Router>
+    <Navbar />
+    <Tracks />  
+    <Route path="/" component={MainPage} />
+    <Route path="/Contact" component={Contact} />
     </div>
+    </Router>
   );
 }
 
