@@ -13,8 +13,10 @@ function App() {
     <div>
     <Navbar />
     <Tracks />  
-    <Route path="/" component={MainPage} />
-    <Route path="/Contact" component={Contact} />
+    <Switch>
+      <Route path="/" component={MainPage} />
+      <Route path="/Contact" component={Contact} />
+    </Switch>
     </div>
     </Router>
   );
