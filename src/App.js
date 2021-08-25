@@ -14,7 +14,7 @@ function App() {
     <Navbar />
     <Tracks />  
     <Switch>
-      <Route path="/" component={MainPage} />
+      <Route path="/" exact component={MainPage} />
       <Route path="/Contact" component={Contact} />
     </Switch>
     </div>

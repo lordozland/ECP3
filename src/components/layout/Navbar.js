@@ -11,7 +11,7 @@ export class Navbar extends Component {
             <div>
                 <nav class="nav-extended black">
                     <div class="nav-wrapper">
-                    <a href="/home" class="brand-logo center">Equinox Crest Productions</a>
+                    <a href="/" class="brand-logo center">Equinox Crest Productions</a>
                     </div>
                     <div class="nav-content">
                     <ul class="tabs tabs-transparent center">
