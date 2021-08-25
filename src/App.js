@@ -3,7 +3,7 @@ import 'materialize-css';
 import Navbar from './components/layout/Navbar';
 import Tracks from './components/layout/Tracks';
 
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import Contact from './pages/Contact';
 import Life from './pages/Life';

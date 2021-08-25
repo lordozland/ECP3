@@ -1,10 +1,6 @@
 import React from 'react';
 
 const Life = () => {
-    const style = {
-        fontweight: 'italic'
-    };
-
     return (
         <div>
             <div class="container center">
