@@ -6,6 +6,7 @@ import Tracks from './components/layout/Tracks';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import Contact from './pages/Contact';
+import Life from './pages/Life';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Switch>
       <Route path="/" exact component={MainPage} />
       <Route path="/Contact" component={Contact} />
+      <Route path="/Life" component={Life} />
     </Switch>
     </div>
     </Router>
