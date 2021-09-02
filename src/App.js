@@ -2,6 +2,7 @@ import './App.css';
 import 'materialize-css';
 import Navbar from './components/layout/Navbar';
 import Tracks from './components/layout/Tracks';
+import Footer from './components/layout/Footer';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainPage from './pages/MainPage';
@@ -10,6 +11,7 @@ import Life from './pages/Life';
 import Sound from './pages/Sound';
 import Design from './pages/Design';
 import Company from './pages/Company';
+import Gaming from './pages/Gaming';
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       <Route path="/Sound" component={Sound} />
       <Route path="/Design" component={Design} />
       <Route path="/Company" component={Company} />
+      <Route path="/Gaming" component={Gaming} />
     </Switch>
+    <Footer />
     </div>
     </Router>
   );
