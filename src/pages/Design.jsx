@@ -5,7 +5,7 @@ const Design = () => {
         <div class="container">
             <div class="row">
 
-            <h3 class="center">This is My App</h3>
+            <h3 class="center">This is My Design</h3>
 
             <p class="center">I built this React App.  Plese enjoy.  Screenshots and links to other works en route.</p>
 
