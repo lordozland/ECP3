@@ -19,7 +19,7 @@ export class Navbar extends Component {
                         <li class="tab"><a href="/sound">Sound</a></li>
                         <li class="tab"><a href="/design">Design</a></li>
                         <li class="tab"><a href="/company">Company</a></li>
-                        <li class="tab"><a href="/contact">Contact</a></li>
+                        <li class="tab"><a href="/gaming">Gaming</a></li>
                     </ul>
                     </div>
                 </nav>
